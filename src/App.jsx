@@ -1,5 +1,7 @@
 import React from "react" 
-import Navbar from "./components/navbar"
+import Navbar from "./components/Navbar/Navbar"
+import Baner from "./components/Banner/Baner"
+
 
 
 const App = () => {
@@ -7,6 +9,7 @@ const App = () => {
    <>
     <div>
       <Navbar />
+      <Baner />
     </div>
    </>
   )
