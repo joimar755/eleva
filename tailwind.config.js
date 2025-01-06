@@ -11,6 +11,11 @@ export default {
       gridAutoColumns: {
         '2fr': 'minmax(0, 2fr)',
       }, 
+      boxShadow: {
+        white: '0 4px 10px rgba(255, 255, 255, 0.8)',
+        dark: '0 4px 10px rgba(0, 0, 0, 0.8)',
+        'darker': '0 4px 10px rgba(0, 0, 0, 0.6)',
+      },
       colors: {
         'primary': '#3490dc',
         'secondary': '#ffed4a',
