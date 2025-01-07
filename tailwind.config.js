@@ -11,6 +11,12 @@ export default {
       gridAutoColumns: {
         '2fr': 'minmax(0, 2fr)',
       }, 
+      fontSize: {
+        'custom': '23px',
+      },
+      lineHeight: {
+        'custom': '33px',
+      },
       boxShadow: {
         white: '0 4px 10px rgba(255, 255, 255, 0.8)',
         dark: '0 4px 10px rgba(0, 0, 0, 0.8)',
