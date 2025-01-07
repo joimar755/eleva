@@ -13,7 +13,16 @@ const Meto = () => {
            por esta razon creamos conversaciones reales con tu comunidad.
            </p>
          </div>
-         <img src={img2} alt="" className="w-96 top-28 h-full rounded-2xl object-cover" />
+         <div className='relative mt-8'>
+            <img src={img2} alt="" className="w-[450px] top-28 h-full rounded-2xl object-cover" />
+            <div class="absolute top-full right-4 md:right-[465px] shadow-whit transform -translate-y-1/2 bg-slate-600 p-5 rounded-3xl py-5 -mt-[120px] w-96 flex flex-col items-center gap-6">
+             <p className="text-white  text-lg max-w-2xl">
+             Escalamos el resultado de tu proyecto hasta donde lo quieras llevar. El cielo es el límite.
+             </p>
+            </div>
+         </div>
+         
+         
     </div>
   )
 }
